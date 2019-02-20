@@ -13,6 +13,7 @@
 		97D508B4221D82BE00BD436A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97D508B3221D82BE00BD436A /* Assets.xcassets */; };
 		97D508B7221D82BE00BD436A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97D508B5221D82BE00BD436A /* LaunchScreen.storyboard */; };
 		97D508BA221D82BE00BD436A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D508B9221D82BE00BD436A /* main.m */; };
+		97D508C3221D831D00BD436A /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D508C2221D831D00BD436A /* ImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		97D508B6221D82BE00BD436A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97D508B8221D82BE00BD436A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97D508B9221D82BE00BD436A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97D508C1221D831D00BD436A /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		97D508C2221D831D00BD436A /* ImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +61,27 @@
 		97D508A9221D82BE00BD436A /* imaginarium */ = {
 			isa = PBXGroup;
 			children = (
-				97D508AA221D82BE00BD436A /* AppDelegate.h */,
-				97D508AB221D82BE00BD436A /* AppDelegate.m */,
+				97D508C0221D82F200BD436A /* SupportingFiles */,
 				97D508AD221D82BE00BD436A /* ViewController.h */,
 				97D508AE221D82BE00BD436A /* ViewController.m */,
 				97D508B0221D82BE00BD436A /* Main.storyboard */,
-				97D508B3221D82BE00BD436A /* Assets.xcassets */,
-				97D508B5221D82BE00BD436A /* LaunchScreen.storyboard */,
+				97D508C1221D831D00BD436A /* ImageViewController.h */,
+				97D508C2221D831D00BD436A /* ImageViewController.m */,
 				97D508B8221D82BE00BD436A /* Info.plist */,
-				97D508B9221D82BE00BD436A /* main.m */,
 			);
 			path = imaginarium;
+			sourceTree = "<group>";
+		};
+		97D508C0221D82F200BD436A /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				97D508AA221D82BE00BD436A /* AppDelegate.h */,
+				97D508AB221D82BE00BD436A /* AppDelegate.m */,
+				97D508B3221D82BE00BD436A /* Assets.xcassets */,
+				97D508B5221D82BE00BD436A /* LaunchScreen.storyboard */,
+				97D508B9221D82BE00BD436A /* main.m */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +156,7 @@
 			files = (
 				97D508AF221D82BE00BD436A /* ViewController.m in Sources */,
 				97D508BA221D82BE00BD436A /* main.m in Sources */,
+				97D508C3221D831D00BD436A /* ImageViewController.m in Sources */,
 				97D508AC221D82BE00BD436A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
