@@ -17,11 +17,15 @@
 
 @end
 
-@implementation ImageViewController
+@implementation ImageViewController(UIScrollViewDelegate)
 
 - (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {
     return self.imageView;
 }
+
+@end
+
+@implementation ImageViewController
 
 - (void)setScrollView:(UIScrollView *)scrollView {
     _scrollView = scrollView;
